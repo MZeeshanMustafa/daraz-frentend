@@ -1,0 +1,21 @@
+
+
+.rating input[type="radio"] {
+    display: none; /* hide radio buttons */
+  }
+  .rating label {
+    display: inline-block;
+    padding: 0em;
+    font-size: 20px;
+  
+  }
+  
+  
+  .rating label:hover ~ label,
+  .rating input[type="radio"] ~ label {
+    color: #ffcc00; /* change color of stars when hovered or selected */
+  }
+  .colors{
+    color: #ccc;
+    font-size: 20px;
+  }

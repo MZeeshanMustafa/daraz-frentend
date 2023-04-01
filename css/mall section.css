@@ -1,0 +1,91 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    display: flex;
+    height: 330px;
+    padding-top: 0px;
+background-color: #fff;
+}
+
+.product-item {
+    text-align: center;
+    font-size: 10px;
+    position: relative;
+    /* border: 1px solid gray; */
+    padding: 10px;
+    overflow: hidden;
+
+
+}
+
+.product-item img {
+    display: block;
+    width: 100%;
+    height: 275px;
+    transition: transform 0.3s ease;
+
+}
+
+.product-item:hover img {
+    transform: scale(1.1);
+}
+
+.product-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover .product-info {
+    transform: translateY(0);
+}
+
+.product-info h3 {
+    margin-top: 0;
+}
+
+.product-info p {
+    margin-bottom: 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: rgb(255, 115, 0);
+    color: #fff;
+}
+.main-mall-section {
+    margin-top: 30px;
+}
+.Daraz-text {
+    font-size: 32px;
+    margin-left: 3rem;
+}
+h1 {
+    font-size: 15px;
+}
+.see-more{
+/* padding-left: 950px; */
+margin-left: 940px;
+color: rgb(255, 115, 0);
+font-size: 19px;
+cursor: pointer;
+}
+.see-more:hover{
+    color: black;
+}
